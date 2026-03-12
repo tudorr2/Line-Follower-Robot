@@ -2,6 +2,15 @@
 
 > A 5-sensor PID-controlled line following robot built on the STM32 platform, with a fully 3D-printed PLA chassis. Competed at **RoboChallenge 2025**.
 
+![C++](https://img.shields.io/badge/Language-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![STM32](https://img.shields.io/badge/Platform-STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
+![Arduino](https://img.shields.io/badge/Framework-Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![L298N](https://img.shields.io/badge/Motor_Driver-L298N-FF6F00?style=for-the-badge&logo=hackster&logoColor=white)
+![PID](https://img.shields.io/badge/Control-PID_Controller-6A0DAD?style=for-the-badge&logo=cachet&logoColor=white)
+![3D Printed](https://img.shields.io/badge/Chassis-3D_Printed_PLA-2ECC71?style=for-the-badge&logo=printables&logoColor=white)
+![RoboChallenge](https://img.shields.io/badge/Competition-RoboChallenge_2025-E74C3C?style=for-the-badge&logo=robotframework&logoColor=white)
+![Team Project](https://img.shields.io/badge/Built_By-Team-F39C12?style=for-the-badge&logo=github&logoColor=white)
+
 ---
 
 ## 📸 Overview
@@ -16,7 +25,7 @@ This project is an autonomous line follower robot designed and built as a team f
 | ------------------- | ------------------------------------ |
 | **Microcontroller** | STM32 (Arduino-compatible framework) |
 | **Motor Driver**    | L298N Dual H-Bridge                  |
-| **Sensors**         | 5× IR analog sensors                 |
+| **Sensors**         | 5× IR analog sensors (Sensor Array)  |
 | **Motors**          | 2× DC motors (differential drive)    |
 | **Chassis**         | Fully 3D printed — PLA filament      |
 | **Communication**   | UART Serial (Serial1 @ 9600 baud)    |
