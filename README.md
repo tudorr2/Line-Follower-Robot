@@ -4,7 +4,6 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![STM32](https://img.shields.io/badge/Platform-STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
-![Arduino](https://img.shields.io/badge/Framework-Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 ![L298N](https://img.shields.io/badge/Motor_Driver-L298N-FF6F00?style=for-the-badge&logo=hackster&logoColor=white)
 ![PID](https://img.shields.io/badge/Control-PID_Controller-6A0DAD?style=for-the-badge&logo=cachet&logoColor=white)
 ![3D Printed](https://img.shields.io/badge/Chassis-3D_Printed_PLA-2ECC71?style=for-the-badge&logo=printables&logoColor=white)
