@@ -16,6 +16,11 @@
 
 This project is an autonomous line follower robot designed and built as a team for the [RoboChallenge 2025](https://robochallenge.ro/) competition. The robot uses an array of 5 IR sensors and a PID controller to smoothly follow a black line on a white surface, dynamically adjusting motor speeds to minimize tracking error.
 
+
+<img width="2048" height="1536" alt="front" src="https://github.com/user-attachments/assets/0aad564d-f375-444d-917b-5ffb4d4fd6a2" />
+<img width="1536" height="2048" alt="top" src="https://github.com/user-attachments/assets/5f2ff9ad-6209-4f96-90a2-6669970a202d" />
+
+
 ---
 
 ## ⚙️ Hardware
@@ -92,34 +97,7 @@ If **no sensors** detect the line (`numOnLine == 0`), the robot spins in the dir
 
 ---
 
-## 📁 Project Structure
-
-```
-line-follower/
-├── line_follower.ino   # Main Arduino/STM32 sketch
-└── README.md
-```
-
----
-
-## 🚀 Getting Started
-
-### Requirements
-
-- [Arduino IDE](https://www.arduino.cc/en/software) with STM32 board support, **or** [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)
-- [STM32duino](https://github.com/stm32duino/Arduino_Core_STM32) core installed
-
-### Flashing
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-team/line-follower.git
-   ```
-2. Open `line_follower.ino` in Arduino IDE.
-3. Select your STM32 board and the correct COM port.
-4. Upload the sketch.
-
-### Tuning
+## Tuning
 
 You can adjust the following parameters directly in the sketch:
 
@@ -130,14 +108,6 @@ float Kp = 32;             // Proportional gain
 float Ki = 0.05;           // Integral gain
 float Kd = 35;             // Derivative gain
 ```
-
-Serial debug output is available at **9600 baud** on `Serial1`, printing error, P, I, D, and adjustment values each loop cycle.
-
----
-
-## 🏆 Competition
-
-This robot competed at **RoboChallenge 2025**, one of Romania's premier robotics competitions, in the line follower category.
 
 ---
 
@@ -150,15 +120,3 @@ The entire chassis was designed in-house and printed using **PLA filament**. The
 - Easy access to electronics and wiring
 
 ---
-
-## 👥 Team
-
-Built with ❤️ by our team for RoboChallenge 2025.
-
-> Want to contribute or have questions? Open an issue or reach out!
-
----
-
-## 📄 License
-
-This project is open source. Feel free to use, modify, and build upon it for your own robotics adventures.
