@@ -18,7 +18,8 @@ This project is an autonomous line follower robot designed and built as a team f
 
 
 <img width="2048" height="1536" alt="front" src="https://github.com/user-attachments/assets/0aad564d-f375-444d-917b-5ffb4d4fd6a2" />
-<img width="1536" height="2048" alt="top" src="https://github.com/user-attachments/assets/5f2ff9ad-6209-4f96-90a2-6669970a202d" />
+<img width="1536" height="2048" alt="top" src="https://github.com/user-attachments/assets/dacc1dc3-7f2b-46a2-9170-1b6c6c8f508d" />
+
 
 
 ---
